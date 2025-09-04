@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS Implementation Demo</title>
+
+    <!-- Method 1: Internal CSS using <style> tag in the <head> -->
+    <style>
+        /* This will style all <div> elements */
+        div {
+            background-color: rgb(174, 131, 131);
+            /* Light brown background */
+            font-size: 50px;
+            /* Large text size */
+            height: 200px;
+            /* Height of the box */
+            width: 300px;
+            /* Width of the box */
+            padding: 20px;
+            /* Space inside the box */
+            margin-top: 20px;
+            /* Space above the box */
+        }
+
+        /* This class can be used to style specific elements */
+        .chavda {
+            background-color: rgb(178, 61, 224);
+            /* Purple background */
+        }
+    </style>
+
+    <!-- Method 3: External CSS file -->
+    <!-- This links to a separate CSS file named "style.css" -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Method 2: Inline CSS using style attribute -->
+    <!-- Each letter is styled individually -->
+    <span style="color: aqua;">R</span>
+    <span style="color: green;">E</span>
+    <span style="color: blue;">S</span>
+    <span style="color: grey;">U</span>
+    <span style="color: yellow;">M</span>
+    <span style="color: orange;">E</span>
+
+    <!-- Avoid using <font> tag — it&#39;s outdated. Use <span> with CSS instead -->
+
+    <!-- Using <div> to create a block element -->
+    <div>This is the first time I am learning CSS!</div>
+
+</body>
+
+</html>
